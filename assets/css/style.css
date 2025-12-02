@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+/* Header */
+header {
+  background: #c62828;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background: #b71c1c;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Content Sections */
+section {
+  background: white;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #c62828;
+}
