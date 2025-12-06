@@ -5,44 +5,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Madrid Travel Guide</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  
   <header>
-    <h1>Madrid Guide</h1>
-    <p>Your essential guide to exploring Spain's vibrant capital</p>
+    <div class="header-content">
+      <h1>🇪🇸 Madrid Guide</h1>
+      <p>Your essential guide to exploring Spain's vibrant capital</p>
+    </div>
   </header>
 
-  <nav>
-    <a href="#transportation">Transportation</a>
-    <a href="#things-to-do">Things To Do</a>
-    <a href="#restaurants">Restaurants</a>
-    <a href="#bars-clubs">Bars & Clubs</a>
+  <nav class="sticky-nav">
+    <a href="#transportation">🚇 Transportation</a>
+    <a href="#things-to-do">📸 Things To Do</a>
+    <a href="#restaurants">🍴 Restaurants</a>
+    <a href="#bars-clubs">🍸 Bars & Clubs</a>
   </nav>
 
-  <section id="transportation">
-    <h2>Transportation</h2>
-    <p>Content coming soon...</p>
-    <p> After arriving to Madrid's airport to go to the city's center you can take the Metro(add link) or a taxi.
-        If you choose the taxi option calling a taxi though Uber(link) or Freenow(link) is usually cheaper than taking a taxi outside the airport
-        If you choose to go to the city center with the Metro then you should buy a ticket from the station
-        Tip: i suggest to take a 10 trip card with the supplementary fee of the airport in totat is 10 euros
-        <p>
-  </section>
+  <div class="container">
+    
+    <section id="transportation">
+      <h2>🚇 Transportation</h2>
+      <div class="card">
+        <h3>Arriving at the Airport</h3>
+        <p>To get to the city center, you have two main options:</p>
+        
+        <div class="transport-options">
+          <div class="transport-box">
+            <h4>🚕 Taxi / Ride Apps</h4>
+            <p>Calling a ride via an app is usually cheaper than hailing a taxi outside arrivals.</p>
+            <div class="links">
+              <a href="#" class="btn">Uber</a>
+              <a href="#" class="btn">FreeNow</a>
+            </div>
+          </div>
 
-  <section id="things-to-do">
-    <h2>Things To Do</h2>
-    <p>Content coming soon...</p>
-  </section>
+          <div class="transport-box">
+            <h4>🚇 Metro</h4>
+            <p>Buy a ticket at the station machine. <strong>Pro Tip:</strong> Buy the 10-trip card. It covers the airport supplement (total ~€10) and can be used by multiple people on Metro and buses.</p>
+            <a href="https://www.metromadrid.es/es/viaja-en-metro/titulos-y-tarifas/tarifas#panel2" target="_blank" class="btn-outline">View Metro Rates</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="restaurants">
-    <h2>Restaurants</h2>
-    <p>Content coming soon...</p>
-  </section>
+    <section id="things-to-do">
+      <h2>📸 Things To Do</h2>
+      
+      <div class="grid-2">
+        <div class="card">
+          <h3>🏛️ Sightseeing & Culture</h3>
+          <ul class="styled-list">
+            <li><strong>Plaza Mayor:</strong> The heart of historic Madrid.</li>
+            <li><strong>Sol & Gran Vía:</strong> Walk the bustling shopping streets.</li>
+            <li><strong>Royal Palace & Almudena Cathedral:</strong> Stunning architecture.</li>
+            <li><strong>Palacio de Cibeles:</strong> Great views from the top.</li>
+            <li><strong>Metropolis & Plaza de Callao:</strong> Iconic photo spots.</li>
+            <li><strong>Museum Triangle:</strong> Prado, Reina Sofia, Thyssen-Bornemisza.</li>
+            <li><strong>Retiro Park:</strong> Relax and see the Puerta de Alcalá.</li>
+          </ul>
+        </div>
 
-  <section id="bars-clubs">
-    <h2>Bars & Clubs</h2>
-    <p>Content coming soon...</p>
-  </section>
+        <div class="card">
+          <h3>🥘 Food & Seasonal</h3>
+          <ul class="styled-list">
+            <li><strong>🎄 Christmas:</strong> Markets in Plaza Mayor, Plaza de España, Plaza Colón, and Callao.</li>
+            <li><strong>🍫 Churros:</strong> Try them at <em>Chocolatería San Ginés</em>.</li>
+            <li><strong>🥪 Must Eat:</strong> Bocadillo de Calamares (Squid Sandwich).</li>
+            <li><strong>🍳 Tortilla:</strong> Visit <em>Pez Tortilla</em> for the famous Spanish omelet.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="restaurants">
+      <h2>🍴 Restaurants</h2>
+      <p class="section-intro">Madrid is a foodie paradise. Here are our top picks.</p>
+
+      <div class="food-grid">
+        <div class="food-card">
+          <div class="food-img" style="background-image: url('https://images.unsplash.com/photo-1533920145262-327c56e60671?auto=format&fit=crop&w=400&q=80');"></div>
+          <div class="food-content">
+            <h3>🛒 Mercados</h3>
+            <ul>
+              <li>Mercado de San Miguel</li>
+              <li>Mercado de San Fernando</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80');"></div>
+          <div class="food-content">
+            <h3>🍽️ Dinner Spots</h3>
+            <ul>
+              <li>Restaurante Her</li>
+              <li>Pelotari</li>
+              <li>La Bodega de Garelos</li>
+              <li>Preciados 33 <em>(All-rounder)</em></li>
+              <li>La Cabaña Argentina <em>(Meats)</em></li>
+              <li>Casa Marius <em>(Paella)</em></li>
+              <li>PerretxiCo Chamberí <em>(Tapas)</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img" style="background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80');"></div>
+          <div class="food-content">
+            <h3>🍔 Burgers & Pizza 🍕</h3>
+            <ul>
+              <li><strong>Burgers:</strong> Frankies, Porneat, Juanchos, Hundred</li>
+              <li class="separator"></li>
+              <li><strong>Pizza:</strong> Trattoria Popolare, Grosso Napoletano, NAP</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img" style="background-image: url('https://images.unsplash.com/photo-1567327613485-fbc7bf196198?auto=format&fit=crop&w=400&q=80');"></div>
+          <div class="food-content">
+            <h3>🍰 Desserts</h3>
+            <ul>
+              <li>Tarta de Queso <em>(Cheesecake)</em></li>
+              <li>Luna & Wanda</li>
+              <li>La Dulcería Café</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bars-clubs">
+      <h2>🍸 Bars & Nightlife</h2>
+      <div class="card center-text">
+        <p>End your night at these top-rated cocktail spots:</p>
+        <div class="tags">
+          <span class="tag">1862 Dry Bar</span>
+          <span class="tag">The Dash</span>
+          <span class="tag">Salmon Guru</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>Enjoy your trip to Madrid! 🇪🇸</p>
+  </footer>
 
   <script src="assets/js/main.js"></script>
 </body>
