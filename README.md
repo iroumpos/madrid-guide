@@ -1,2 +1,2 @@
 # madrid-guide
-This a guide for Madrod
+This a guide for Madrid
